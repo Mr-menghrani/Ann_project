@@ -1,3 +1,9 @@
-streamlit>=1.31.0
-numpy>=1.24.0
-tensorflow>=2.15.0
+# requirements.txt
+# Core app framework
+streamlit>=1.31.0,<2.0.0
+
+# Numerical computing (pinned for TensorFlow compatibility)
+numpy>=1.24.0,<2.0.0
+
+# Machine learning backend (CPU-only for cloud efficiency)
+tensorflow-cpu>=2.15.0,<2.16.0
